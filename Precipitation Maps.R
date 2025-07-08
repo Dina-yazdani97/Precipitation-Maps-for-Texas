@@ -13,7 +13,7 @@ texas_boundary_buffered <- st_buffer(texas_boundary, dist = 0.1)
 
 # 3 Loading Digital Elevation Model ---------------------------------------
 
-Elevation <- rast("/home/user/Elavation.nc")
+Elevation <- rast("/home/user/Elevation.nc")
 
 
 # 4 Loading Tif Files ----------------------------------------------------
